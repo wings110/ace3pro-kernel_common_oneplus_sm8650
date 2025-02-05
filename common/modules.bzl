@@ -67,6 +67,9 @@ _COMMON_GKI_MODULES_LIST = [
     "net/rfkill/rfkill.ko",
     "net/tipc/diag.ko",
     "net/tipc/tipc.ko",
+    "net/netfilter/ipvs/ip_vs_rr.ko",
+    "net/netfilter/xt_ipvs.ko",
+    "net/netfilter/ipvs/ip_vs.ko", 
 ]
 
 # Deprecated - Use `get_gki_modules_list` function instead.
